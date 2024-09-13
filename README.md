@@ -1,7 +1,8 @@
-# personal-bio-page
+# linkhub.monster
 
-### Overview
-The **Personal Bio Page** is a self-hosted, customizable, and responsive webpage designed to manage and showcase personal or professional links. This project allows users to create a central bio page with features like link management, sub-bio pages, and an admin UI for easy updates. Inspired by popular bio page generators, this project is built with scalability in mind, using the latest design trends, such as fluted motion.
+## Overview
+**LinkHub.Monster** is a self-hosted bio page to manage and showcase personal/professional links. It features an admin UI, dynamic link management, sub-bio pages, and Google Analytics integration, all within a sleek, customizable design.
+
 
 ### Features
 - **Admin UI**: A user-friendly dashboard for managing bio content, images, and links.
