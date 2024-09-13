@@ -37,5 +37,5 @@ To install and run the **Personal Bio Page** locally or on a web server:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/UnKnownWebGeek/personal-bio-page.git
+   git clone https://github.com/UnKnownWebGeek/linkhub.monster
 
