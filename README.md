@@ -4,6 +4,7 @@
 
 ## Features
 
+- **Admin UI**: Manage bio content, links, sub-bio pages, and donations.
 - **Built with Next.js** for fast, scalable web applications.
 - **Responsive Design**: Works across all devices, including mobile.
 - **Dynamic Link Management**: Add and manage personal/professional links.
@@ -13,11 +14,16 @@
 - **PayPal Integration**: Accept donations or payments for services via PayPal.
 - **Admin UI**: Easily manage links and bio information.
 
-## PayPal Integration
-We’ve added PayPal's Smart Payment Buttons to allow for tips or donations. The PayPal button can be found on the `/donate` page. Simply integrate your PayPal Client ID in the environment configuration to enable the donation feature.
+## Admin UI
+
+The Admin UI allows users to:
+- **Manage Links**: Add, edit, or delete links to social media, websites, and profiles.
+- **Manage Sub-Bio Pages**: Create and manage sub-pages for different projects.
+- **Manage Donations**: Track tips and payments via PayPal.
+- **Analytics**: View Google Analytics data for page views, traffic, and link clicks.
 
 ### Installation
 
-1. Clone this repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/UnKnownWebGeek/linkhub.monster.git
