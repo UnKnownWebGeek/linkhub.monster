@@ -1,0 +1,9 @@
+const ManageSubBioPages = () => {
+  return (
+    <div>
+      <h1>Manage Sub-Bio Pages</h1>
+    </div>
+  );
+};
+
+export default ManageSubBioPages;
