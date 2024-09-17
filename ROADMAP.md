@@ -20,7 +20,7 @@ Create admin UI skeleton for managing:
 
 1. **Design the UI Structure:**
    - [x] Provide a visual blueprint, aids in component identification, facilitates early feedback and collaboration.
-   
+
 2. **Choose a UI Framework (if applicable):**
    - [x] Consider frameworks like Material UI, Chakra UI, or Tailwind CSS. Tailwind CSS was selected for this project.
 
