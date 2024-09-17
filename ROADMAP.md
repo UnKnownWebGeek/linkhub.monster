@@ -1,46 +1,63 @@
-# Project Roadmap: linkhub.monster
+# LinkHub.Monster - Project Roadmap
 
-## Overview
-This roadmap outlines the major tasks, milestones, and development phases for the **linkhub.monster** project. As tasks are completed or modified, this file will be updated accordingly.
-
----
-
-## Phases and Milestones:
-
-### Phase 1: Project Setup and Configuration
-- [x] Set up **Next.js** and **TypeScript** environment.
-- [x] Install required dependencies (`tailwindcss`, `react`, etc.).
-- [x] Configure **Tailwind CSS** with custom fonts, colors, and plugins.
-- [x] Set up basic page structure for the homepage.
-- [x] Push initial project to **GitHub**.
-- [ ] Create admin UI skeleton (links management, donations, sub-bio pages).
-
-### Phase 2: Styling and Design
-- [x] Apply global styles using `globals.css`.
-- [ ] Implement **light/dark mode toggle**.
-- [ ] Add motion/animation effects for a modern look.
-- [ ] Style admin UI pages (Dashboard, Links, Sub-bio Pages, Donations).
-
-### Phase 3: Functionality Implementation
-- [ ] Connect **Google Analytics** for tracking.
-- [ ] Add **dynamic link management** for admin UI.
-- [ ] Create **sub-bio pages** functionality.
-- [ ] Integrate **PayPal** for tipping/donations.
-
-### Phase 4: Testing and Debugging
-- [ ] Review **GitHub** commits and ensure no missing files.
-- [ ] Check for **404 errors** and other broken routes.
-- [ ] Debug any remaining **compilation errors**.
-
-### Phase 5: Finalization and Deployment
-- [ ] Final code review and refactoring.
-- [ ] Deploy project to production (using **Vercel** or another platform).
-- [ ] Optimize for mobile and desktop responsiveness.
+## Overview:
+This roadmap will help us keep track of tasks, milestones, and progress for building LinkHub.Monster, a self-hosted bio page project that includes sub-bio page management. We'll keep it updated as we go, adding, modifying, and marking tasks as completed.
 
 ---
 
-## Future Enhancements:
-- [ ] Add multi-language support.
-- [ ] Implement **SEO optimization**.
-- [ ] Expand admin UI with more advanced analytics features.
-- [ ] Set up **multisite/subdomain management**.
+## Current Stage:
+**Phase 1: Project Setup and Configuration**
+
+### Next Step:
+Create admin UI skeleton for managing:
+- Links
+- Donations
+- Sub-bio pages
+
+---
+
+## Steps and Sub-steps:
+
+1. **Design the UI Structure:**
+   - [x] Provide a visual blueprint, aids in component identification, facilitates early feedback and collaboration.
+   
+2. **Choose a UI Framework (if applicable):**
+   - [x] Consider frameworks like Material UI, Chakra UI, or Tailwind CSS. Tailwind CSS was selected for this project.
+
+3. **Implement Basic UI Components:**
+   - [x] Established a foundation for the admin panel with basic components.
+   - [x] Created navigation, page layouts, and form inputs for managing links, donations, and sub-bio pages.
+
+---
+
+## Completed Steps:
+- [x] **Project Setup:** Initialized project with Next.js and TypeScript.
+- [x] **Added Admin Page Skeleton.**
+- [x] **Installed basic packages and Tailwind CSS for styling.**
+- [x] **Configured Tailwind for typography and responsive design.**
+- [x] **Implemented "Manage Links" page.**
+- [x] **Implemented "Manage Sub-Bio Pages" page.**
+- [x] **Implemented "Donations" management page.**
+- [x] **Fixed capitalization issues (Donations to donations, etc.).**
+- [x] **Added basic form validation for links, sub-bio pages, and donations.**
+
+---
+
+## AI Persona Recommendations:
+For a more modular, reusable structure, consider:
+- Using component libraries or building your own reusable components.
+- CSS-in-JS solutions like Styled Components or Emotion for component encapsulation.
+
+---
+
+## Future Milestones:
+- [ ] Add payment processing for donations (PayPal integration).
+- [ ] Implement analytics tracking with Google Analytics.
+- [ ] Add mobile responsiveness and dark mode toggle.
+- [ ] Implement user-friendly error handling and form validation.
+- [ ] Explore subdomain/subdirectory setup for sub-bio pages.
+
+---
+
+## Version Control:
+Be sure to commit all progress regularly and push to GitHub.
